@@ -22,6 +22,6 @@ From the language point of view, the software provides an interface to support p
 Most importantly, it will fulfill my current dream of creating a highly extensible Web server that supports
 dynamic data changesand server - side Bridges for a wide variety of clients.
 
-																		！！！！Created 2022-2-23
+																		------Created 2022-2-23
 
 **************************************************/
