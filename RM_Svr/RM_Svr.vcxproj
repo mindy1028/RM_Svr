@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Diary.h" />
     <ClInclude Include="RM_Svr_Arch.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

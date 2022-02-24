@@ -18,5 +18,8 @@
     <ClInclude Include="RM_Svr_Arch.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Diary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
