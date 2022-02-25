@@ -21,6 +21,8 @@
   <ItemGroup>
     <ClInclude Include="Diary.h" />
     <ClInclude Include="RM_Svr_Arch.h" />
+    <ClInclude Include="RM_Svr_include.h" />
+    <ClInclude Include="RM_Svr_protocol.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

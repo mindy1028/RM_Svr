@@ -2,11 +2,15 @@
 
 Copyright:Lemon Mindy
 
+File:RM_Svr_protocol.h
+
 Author:Mindy
 
 Date:2022-2-23
 
-Description:RM_Svr Architecture By C++
+Description:RM_Svr Development diary By C++
+
+Brief:Contains a description of the RM_Svr architecture
 
 **************************************************/
 

@@ -21,5 +21,11 @@
     <ClInclude Include="Diary.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="RM_Svr_protocol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RM_Svr_include.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
