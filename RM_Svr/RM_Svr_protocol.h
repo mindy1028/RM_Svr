@@ -84,28 +84,32 @@ namespace Rose_Mindy
 		RM_U8 hlen;
 		RM_U8 hops;
 
-		RM_U32 xid;
+		RM_U64 xid;
 
 		RM_U16 secs;
 		RM_U16 flags;
 
-		RM_U32 ciaddr;
-		RM_U32 yiaddr;
-		RM_U32 siaddr;
-		RM_U32 giaddr;
+		RM_U64 ciaddr;
+		RM_U64 yiaddr;
+		RM_U64 siaddr;
+		RM_U64 giaddr;
 		RM_U8 chaddr[16];
 
-		RM_S8 sname[64];
-		RM_S8 file[128];
+		RM_U8 sname[64];
+		RM_U8 file[128];
 
-		RM_U32 magic;
-
-		bool IsValid() const
-		{
-			//return magic == qToBigEndian(0x63825363U);
-		};
+		RM_U8 options[];
 	};
 
+	struct DHCPServerOptions
+	{
+		RM_U8 pbMagicCookie[4];
+		RM_U8 pbMessageType[3];
+		RM_U8 pbLeaseTime[6];
+		RM_U8 pbSubnetMask[6];
+		RM_U8 pbServerID[6];
+		RM_U8 bEND;
+	};
 	// tftp
 
 	// ftp

@@ -23,3 +23,13 @@ Brief:Contains a development diary for RM_Svr
 		* 
 		*    Development diary  End     *
 ****************************************************************************/
+
+
+/***************************************************************************
+		*    Development diary Begin    *
+		* 
+		*    Date:2022-3-1 Wuhan
+		*    Create the GlobalDef file and THE DHCP content structure.
+		* 
+		*    Development diary  End     *
+****************************************************************************/

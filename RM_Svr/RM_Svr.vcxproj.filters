@@ -27,5 +27,8 @@
     <ClInclude Include="RM_Svr_include.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="RM_Svr_globaldef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
