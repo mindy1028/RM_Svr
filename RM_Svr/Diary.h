@@ -19,17 +19,25 @@ Brief:Contains a development diary for RM_Svr
 		*    Development diary Begin    *
 		* 
 		*    Date:2022-2-24 Wuhan
-		*    Create Diary File for Mindy's Architecture.
+		*    Create Diary File for Mindy's Architecture & Code compiles
 		* 
 		*    Development diary  End     *
 ****************************************************************************/
-
 
 /***************************************************************************
 		*    Development diary Begin    *
 		* 
 		*    Date:2022-3-1 Wuhan
-		*    Create the GlobalDef file and THE DHCP content structure.
+		*    Create the GlobalDef file and THE DHCP content structure & Code compiles
 		* 
+		*    Development diary  End     *
+****************************************************************************/
+
+/***************************************************************************
+		*    Development diary Begin    *
+		*
+		*    Date:2022-3-8 Wuhan
+		*    Create RM_Svr schema Demo & Code compiles
+		*
 		*    Development diary  End     *
 ****************************************************************************/

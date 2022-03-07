@@ -19,11 +19,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Demo.h" />
     <ClInclude Include="Diary.h" />
+    <ClInclude Include="mod_RM_PerForm.h" />
+    <ClInclude Include="mod_RM_Registration.h" />
     <ClInclude Include="RM_Svr_Arch.h" />
     <ClInclude Include="RM_Svr_globaldef.h" />
     <ClInclude Include="RM_Svr_include.h" />
     <ClInclude Include="RM_Svr_protocol.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Demo.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mod_RM_PerForm.cpp" />
+    <ClCompile Include="mod_RM_Registration.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -37,7 +46,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>

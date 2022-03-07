@@ -13,10 +13,29 @@ Description:RM_Svr Development diary By C++
 Brief:Contains RM_Svr header files
 
 **************************************************/
-
-#ifndef _RM_SVR_INCLUDE_H_
-#define _RM_SVR_INCLUDE_H_
-
 #include <iostream>
+#include <cstdio>
+#include <xstring>
+#include <vector>
+#include <tuple>
+#include <map>
 
-#endif // !_RM_SVR_INCLUDE_H_
+#ifdef RM_Application_Layer
+namespace Rose_Mindy
+{
+    // 应用层基类
+    class RObject
+    {
+    public:
+        RObject() {};
+        ~RObject() {};
+
+    public:
+        virtual int ProcessCtrl() = 0;
+    };
+}
+#endif // RM_Application_Layer
+
+class RObject;
+    // 函数指针
+typedef int (RObject::* NONSTATICFUNCPTR)();

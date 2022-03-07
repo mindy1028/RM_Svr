@@ -13,6 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\注册模块">
+      <UniqueIdentifier>{c144a4ab-bd57-4275-8e12-11ab980fb4dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\注册模块">
+      <UniqueIdentifier>{c1ca0c5f-445c-47d1-9a40-dbf7b030ebf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\中间件">
+      <UniqueIdentifier>{c6999d2c-69fa-44b5-9b01-5c2257fec4d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\中间件">
+      <UniqueIdentifier>{23b5db2b-05fe-46c1-9d37-7b5d67eaa07d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="应用层">
+      <UniqueIdentifier>{a227b4ee-6010-4e0c-871e-343a48f7430c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="应用层\Demo">
+      <UniqueIdentifier>{bbe0d25a-976c-480c-b9db-d38273ba5e55}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RM_Svr_Arch.h">
@@ -30,5 +48,28 @@
     <ClInclude Include="RM_Svr_globaldef.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="mod_RM_Registration.h">
+      <Filter>头文件\注册模块</Filter>
+    </ClInclude>
+    <ClInclude Include="mod_RM_PerForm.h">
+      <Filter>头文件\中间件</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo.h">
+      <Filter>应用层\Demo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mod_RM_Registration.cpp">
+      <Filter>源文件\注册模块</Filter>
+    </ClCompile>
+    <ClCompile Include="mod_RM_PerForm.cpp">
+      <Filter>源文件\中间件</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo.cpp">
+      <Filter>应用层\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
