@@ -1,75 +1,86 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="源文件">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="头文件">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="资源文件">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\注册模块">
-      <UniqueIdentifier>{c144a4ab-bd57-4275-8e12-11ab980fb4dc}</UniqueIdentifier>
+    <Filter Include="【01】头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="头文件\注册模块">
-      <UniqueIdentifier>{c1ca0c5f-445c-47d1-9a40-dbf7b030ebf7}</UniqueIdentifier>
+    <Filter Include="【02】中间件">
+      <UniqueIdentifier>{a31994b4-97c4-4aea-a243-e49ba29a7241}</UniqueIdentifier>
     </Filter>
-    <Filter Include="头文件\中间件">
-      <UniqueIdentifier>{c6999d2c-69fa-44b5-9b01-5c2257fec4d5}</UniqueIdentifier>
+    <Filter Include="【02】中间件\注册模块">
+      <UniqueIdentifier>{39164421-5396-4ddf-bd59-5bdcca972330}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\中间件">
-      <UniqueIdentifier>{23b5db2b-05fe-46c1-9d37-7b5d67eaa07d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="应用层">
+    <Filter Include="【03】应用层">
       <UniqueIdentifier>{a227b4ee-6010-4e0c-871e-343a48f7430c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="应用层\Demo">
+    <Filter Include="【03】应用层\Demo">
       <UniqueIdentifier>{bbe0d25a-976c-480c-b9db-d38273ba5e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="【00】底层">
+      <UniqueIdentifier>{454ad03e-a612-493b-ba8d-1c7ba1039931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="【00】底层\队列">
+      <UniqueIdentifier>{8302632b-1670-46c8-8436-5dec2878f2d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="【00】底层\事件">
+      <UniqueIdentifier>{d19f3e55-f3db-4b5c-947f-b57f975514a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="【00】底层\工具函数">
+      <UniqueIdentifier>{89c53226-6a4c-4aac-97f4-fd0b333dff44}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RM_Svr_Arch.h">
-      <Filter>头文件</Filter>
+      <Filter>【01】头文件</Filter>
     </ClInclude>
     <ClInclude Include="Diary.h">
-      <Filter>头文件</Filter>
+      <Filter>【01】头文件</Filter>
     </ClInclude>
     <ClInclude Include="RM_Svr_protocol.h">
-      <Filter>头文件</Filter>
+      <Filter>【01】头文件</Filter>
     </ClInclude>
     <ClInclude Include="RM_Svr_include.h">
-      <Filter>头文件</Filter>
+      <Filter>【01】头文件</Filter>
     </ClInclude>
     <ClInclude Include="RM_Svr_globaldef.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="mod_RM_Registration.h">
-      <Filter>头文件\注册模块</Filter>
-    </ClInclude>
-    <ClInclude Include="mod_RM_PerForm.h">
-      <Filter>头文件\中间件</Filter>
+      <Filter>【01】头文件</Filter>
     </ClInclude>
     <ClInclude Include="Demo.h">
-      <Filter>应用层\Demo</Filter>
+      <Filter>【03】应用层\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="mod_RM_PerForm.h">
+      <Filter>【02】中间件</Filter>
+    </ClInclude>
+    <ClInclude Include="mod_RM_Registration.h">
+      <Filter>【02】中间件\注册模块</Filter>
+    </ClInclude>
+    <ClInclude Include="RMQueue.h">
+      <Filter>【00】底层\队列</Filter>
+    </ClInclude>
+    <ClInclude Include="RMEvent.h">
+      <Filter>【00】底层\事件</Filter>
+    </ClInclude>
+    <ClInclude Include="RMUtilties.h">
+      <Filter>【00】底层\工具函数</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mod_RM_Registration.cpp">
-      <Filter>源文件\注册模块</Filter>
+    <ClCompile Include="Demo.cpp">
+      <Filter>【03】应用层\Demo</Filter>
     </ClCompile>
     <ClCompile Include="mod_RM_PerForm.cpp">
-      <Filter>源文件\中间件</Filter>
+      <Filter>【02】中间件</Filter>
     </ClCompile>
-    <ClCompile Include="Demo.cpp">
-      <Filter>应用层\Demo</Filter>
+    <ClCompile Include="mod_RM_Registration.cpp">
+      <Filter>【02】中间件\注册模块</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
+      <Filter>【03】应用层</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

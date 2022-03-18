@@ -23,6 +23,9 @@
     <ClInclude Include="Diary.h" />
     <ClInclude Include="mod_RM_PerForm.h" />
     <ClInclude Include="mod_RM_Registration.h" />
+    <ClInclude Include="RMEvent.h" />
+    <ClInclude Include="RMQueue.h" />
+    <ClInclude Include="RMUtilties.h" />
     <ClInclude Include="RM_Svr_Arch.h" />
     <ClInclude Include="RM_Svr_globaldef.h" />
     <ClInclude Include="RM_Svr_include.h" />
@@ -104,6 +107,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

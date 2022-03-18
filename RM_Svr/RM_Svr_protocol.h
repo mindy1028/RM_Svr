@@ -28,6 +28,7 @@ namespace Rose_Mindy
 	typedef unsigned short RM_U16;
 	typedef unsigned int RM_U32;
 	typedef unsigned long RM_U64;
+	typedef long long unsigned RM_U128;
 
 	typedef signed char RM_S8;
 	typedef signed short RM_S16;
@@ -62,7 +63,7 @@ namespace Rose_Mindy
 	}RM_LOG_LEVEL;
 
 	// Log contents
-	typedef struct RM_LOG_PARAMS
+	struct RM_LOG_PARAMS
 	{
 		RM_STRING time;
 		RM_STRING file;
@@ -98,7 +99,7 @@ namespace Rose_Mindy
 		RM_U8 sname[64];
 		RM_U8 file[128];
 
-		RM_U8 options[];
+		RM_U8 options[2048];
 	};
 
 	struct DHCPServerOptions

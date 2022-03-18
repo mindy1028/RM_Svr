@@ -13,9 +13,9 @@ Description:RM_Svr underlying registration module
 Brief:Contains the underlying registration model for RM_Svr
 
 **************************************************/
-
+#ifndef RM_REGISTRATION_H
+#define RM_REGISTRATION_H
 #include "RM_Svr_globaldef.h"
-#include "RM_Svr_include.h"
 namespace Rose_Mindy
 {
     class Middleware
@@ -38,3 +38,4 @@ namespace Rose_Mindy
         std::map<std::string, long> map;
     };
 }
+#endif // !RM_REGISTRATION_H

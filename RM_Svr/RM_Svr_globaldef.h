@@ -16,6 +16,8 @@ Brief:Contains RM_Svr toolbox file
 
 #ifndef _RM_SVR_GLOBALDEF_H_
 #define _RM_SVR_GLOBALDEF_H_
+#include "RM_Svr_protocol.h"
+
 // Do not use "new" or "delete" in any of the inlined code below (excluding templates)
 // so that we can avoid having those allocations tracked by ToolBoxDebug
 
