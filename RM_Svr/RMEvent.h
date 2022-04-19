@@ -20,22 +20,6 @@ Brief:Contains the base events for RM_Svr
 #include "RMUtilties.h"
 
 namespace Rose_Mindy {
-	//template<typename RTNVal, typename FuncPtr, typename ... Params>
-	//struct MyStruct
-	//{
-	//public:
-	//	RM_U128 eve_uuid;
-
-	//	RTNVal eve_rtn;
-	//	MyStruct() {
-	//		uuid = _get_random();
-	//	}
-
-	//	RM_S32 process{
-
-	//		return 0;
-	//	}
-	//};
 }
 
 #endif

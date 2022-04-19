@@ -50,3 +50,12 @@ Brief:Contains a development diary for RM_Svr
 		*
 		*    Development diary  End     *
 ****************************************************************************/
+
+/***************************************************************************
+		*    Development diary Begin    *
+		*
+		*    Date:2022-4-10 Wuhan
+		*    Create RM_Svr ThreadPool struct
+		*
+		*    Development diary  End     *
+****************************************************************************/
